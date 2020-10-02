@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI kalkulátor</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link  href="style.css" rel="stylesheet">
+    <body>
+        <nav>
+            <ul>
+                <li><a href="munka.html">Fő oldal</a></li>
+            
+            </ul>
+        </nav>
+        <h1>BMI kalkulátor</h1>
+            <div id="container">
+                <label for="weight-input" id="wlabel">A súlyod(kg):</label><input type="text" id="weight-input"><br>
+                <label for="height-input" id="hlabel">A magasságod(cm):</label><input type="text" id="height-input"><br>
+                <button id="btn">Számítás</button><br>
+                <label for="bmi-output" id="bmilabel">A BMI-d:</label><input type="text" id="bmi-output">
+            </div>
+            <div id="table">
+                <table>
+                    <caption>BMI index táblázat</caption>
+                    <tr>
+                      <th>Túl sovány</th>
+                      <th>Egészséges</th> 
+                      <th>Túl súlyos</th>
+                      <th>Elhízott</th>
+                    </tr>
+                    <tr>
+                      <td>18.5 alatt</td>
+                      <td>18.5 és 24.9</td>
+                      <td>25.0 és 29.9</td>
+                      <td>30.0 felett</td>
+                    </tr>
+                  </table>
+            </div>
+            <script src="munka.js"></script>
+    </body>
+</html>
