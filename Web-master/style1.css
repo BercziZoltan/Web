@@ -1,0 +1,90 @@
+body
+{
+  background-image:url("puma.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ul 
+{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(2, 2, 2, 0.7);
+}
+
+li 
+{
+  float: left;
+}
+  
+li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+  
+li a:hover 
+{
+  background-color: #111;
+}
+
+bmi-output 
+{
+  height: 25px;
+  width: 250px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  align-self: center;
+}
+
+#bmilabel 
+{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+#btn 
+{
+  height: 25px;
+  width: 75px;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  align-self: left;
+  justify-self: center;
+}
+
+.oke1
+{
+  background-color: rgba(66, 59, 66, 0.5);
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 200px;
+  
+}
+
+.rolunk
+{
+  text-align:center;
+  font-size: 40px
+}
+
+.rolunk1
+{
+  text-align: center;
+  font-size: 75px;
+}
+
+.rolunk2
+{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+}
